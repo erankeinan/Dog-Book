@@ -1,0 +1,87 @@
+.fontawsome {
+    font-family: 'Spicy Rice', cursive;
+  }
+  
+
+.h-title {
+    margin-top: 3%;
+    font-size: 500%; 
+    /* text-align: center; */
+    
+}
+
+.cover{
+    margin-left: 250px;
+}
+body {
+    background-color: lightgray;
+}
+
+.htext{
+    margin-top: 7%;
+}
+
+#search-bx{
+    margin-bottom: 2em;
+}
+#search-bx{
+    width: 500px;
+}
+
+#dog-book{
+    font-family: 'Spicy Rice', cursive;  
+    font-size: 95%;
+}
+.card{
+
+    max-width: 23%;
+} 
+
+.capt{
+    text-transform: capitalize;
+
+}
+
+.card-img-top{
+    max-width: 30%x;
+}
+
+
+.card-img-top {
+    width: 100%;
+    height: 19vw;
+    object-fit: cover;
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) {
+    .card-img-top {
+        height: 19vw;
+    }
+  }
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .card-img-top {
+        height: 16vw;
+    }
+  }
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .card-img-top {
+        height: 19vw;
+        object-fit: cover;
+        width: 100%;
+    }
+  }
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 992px) {
+    .card-img-top {
+        height: 19vw;
+        object-fit: cover;
+        width: 100%;
+    }
+  }
+
+  .modal-content{
+      background-color: lightgray;
+  }
